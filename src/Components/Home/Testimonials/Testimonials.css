@@ -1,0 +1,22 @@
+.testimonials .container{
+    background-image: url(../../../images/quote.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 150px;
+}
+.testimonials .card{
+    border-color: transparent;
+}
+
+.testimonials .card .card-footer{
+    background: transparent;
+    border: 0;
+}
+.title-description{
+    padding: 0 250px;
+}
+@media only screen and (max-width: 600px) {
+    .title-description{
+        padding: 0;
+    }
+}
